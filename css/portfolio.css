@@ -12,8 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  border: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
 .filtr-items>li:not(:last-child) {
   margin-right: 8px;

@@ -278,6 +278,7 @@
     <!--ПІДВАЛ СТОРІНКИ-->
     <footer class="section-footer">
       <div class="container ftr-flex">
+        <!-- КОНТАКТИ -->
         <div>
           <!-- logo footer -->
           <a class="logo-ftr" href="./index.html">
@@ -296,8 +297,8 @@
             </ul>
           </address>
         </div>
+        <!-- СОЦМЕРЕЖІ -->
         <div class="socials">
-          <!-- СОЦ МЕРЕЖІ ЧЛЕНА КОМАНДИ -->
           <h2 class="socials-tittle">Приєднуйтесь</h2>
           <ul class="socials-list">
             <li>
@@ -330,6 +331,28 @@
             </li>
           </ul>
         </div>
+        <!-- ФОРМА ПІДПИСКИ -->
+        <form  class="form-hdr">
+          <div>
+            <label for="xxx">
+              <span class="form-hdr-tittle">
+                Підпишіться на розсилку
+              </span>
+            </label>
+            <input 
+              class="input-email-ftr"
+              type="email" 
+              name="email_ftr" 
+              id="xxx"
+              placeholder="E-mail"/>
+          </div>
+          <button class="btn-send" type="button">
+            <span>Підписатись</span>
+            <svg>
+              <use href="./images/sprite_new.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
