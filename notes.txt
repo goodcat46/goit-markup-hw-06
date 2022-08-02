@@ -1,0 +1,37 @@
+Перевірка вкладеності:
+https://caninclude.glitch.me/
+ Специфікація:
+https://html.spec.whatwg.org/
+
+Збірна властивість фону
+background: 
+  background-color 
+  background-image 
+  background-repeat 
+  background-position 
+  background-attachment
+
+рекомендації щодо назв класів
+  https://github.com/yoksel/common-words
+
+Спецсимволи
+https://unicode-table.com/ru/html-entities/#block-math
+
+Відцентрував іконки партнерів FLEX-ами 
+і соцмереж задопомогою padding
+
+---------- visually-hidden.css
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+---------- 
